@@ -1,0 +1,18 @@
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Local database configuration (if it contains passwords)
+# config.php
+
+# Temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
